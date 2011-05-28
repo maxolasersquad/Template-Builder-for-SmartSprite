@@ -1,0 +1,4 @@
+This python script will take a folder full of images and build the .css file needed by the SmartSprite (http://csssprites.org/) application to build a sprite based off of the image.  The following example creates a file named testsprite.css in the folder named images.  The file will instruct SmartSprite to create a sprite named testsprite.png with a vertical layout.
+python make_css.py testsprite.css testsprite.png images vertical
+
+Presently, there is no support for any advanced SmartSprite options.  If you have specific formatting needs for certain images files, you will need to go in an manually add them yourself after the .css file is generated.
